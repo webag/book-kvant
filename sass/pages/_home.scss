@@ -383,6 +383,8 @@
 .review__stars{
 	margin-bottom: 10px;
 	pointer-events: none;
+	--gl-star-empty: url(../img/star-empty.svg);
+	--gl-star-full: url(../img/star-full.svg);
 }
 
 .review__name{

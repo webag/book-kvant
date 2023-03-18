@@ -1491,6 +1491,8 @@ label {
 
 .form-item__stars {
   padding-left: 1em;
+  --gl-star-empty: url(../img/star-empty-black.svg);
+  --gl-star-full: url(../img/star-full-black.svg);
 }
 
 .form-item__label {
@@ -2288,6 +2290,8 @@ button::-moz-focus-inner {
 .review__stars {
   margin-bottom: 10px;
   pointer-events: none;
+  --gl-star-empty: url(../img/star-empty.svg);
+  --gl-star-full: url(../img/star-full.svg);
 }
 
 .review__name {

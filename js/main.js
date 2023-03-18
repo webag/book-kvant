@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	const formRating = new StarRating('.form-stars', {
-		tooltip: false
+		tooltip: false,
 	});
 })
 /* Reviews End */

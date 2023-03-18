@@ -50,6 +50,8 @@ label {
 
 .form-item__stars{
 	padding-left: 1em;
+	--gl-star-empty: url(../img/star-empty-black.svg);
+	--gl-star-full: url(../img/star-full-black.svg);
 }
 
 .form-item__label{
