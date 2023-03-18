@@ -43,7 +43,7 @@
 					<a href="#about" class="scrollto">о книге</a>
 					<a href="#fragment" class="scrollto">фрагмент</a>
 					<a href="#reviews" class="scrollto">отзывы</a>
-					<a href="#" target="_blank">скачать</a>
+					<a href="#modal-download" class="fancy-modal">скачать</a>
 				</nav>
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 			<a href="#about" class="scrollto">о книге</a>
 			<a href="#fragment" class="scrollto">фрагмент</a>
 			<a href="#reviews" class="scrollto">отзывы</a>
-			<a href="#" target="_blank">скачать</a>
+			<a href="#modal-download" class="fancy-modal">скачать</a>
 		</nav>
 		<div class="socials">
 			<a href="#" target="_blank" class="social">

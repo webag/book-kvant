@@ -11,7 +11,6 @@ label {
 	border: 2px solid #000;
 	padding: 16px 20px;
 	overflow: visible;
-	width: 100%;
 	transition: all 0.3s ease;
 
 	@include res(l) {
@@ -46,6 +45,11 @@ label {
 
 .form-item{
 	display: block;
+
+	.input-text{
+		display: block;
+		width: 100%;
+	}
 }
 
 .form-item__stars{
@@ -66,6 +70,10 @@ label {
 	padding-top: 15px;
 	color: #a8a8a8;
 
+	@include res(m) {
+		font-size: 12px;
+	}
+
 	a{
 		text-decoration: underline;
 		transition: color 0.3s ease;
@@ -84,6 +92,12 @@ label {
 
 		@include res(l) {
 			margin-bottom: 15px;
+		}
+	}
+
+	.btn{
+		@include res(m) {
+			margin-top: 10px;
 		}
 	}
 }

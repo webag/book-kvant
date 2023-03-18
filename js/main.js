@@ -1,3 +1,9 @@
+/* Заметки Begin */
+// Fancybox.show([{src: '#modal-thanks'}]); - открыть модальное окно с id = #modal-thanks
+// Fancybox.close(); - закрыть текущее модальное окно
+/* Заметки End */
+
+
 /* fancybox BEGIN */
 Fancybox.defaults.placeFocusBack = false;
 Fancybox.defaults.autoFocus = false;
@@ -24,21 +30,8 @@ Fancybox.defaults.l10n = {
 };
 
 function initFancy() {
-	Fancybox.bind(".fancy", {
-		closeButton: 'inside'
-	});
-
 	Fancybox.bind(".fancy-modal", {
 		dragToClose: false
-	});
-
-	Fancybox.bind(".fancy-video", {
-		dragToClose: false,
-	});
-
-	Fancybox.bind(".fancy-map", {
-		dragToClose: false,
-		type: 'iframe'
 	});
 }
 

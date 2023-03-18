@@ -29,7 +29,7 @@
 
 			<div class="intro__right">
 				<img src="/img/intro.png" srcset="/img/intro@2x.png 2x" alt="img" class="intro__right__img">
-				<a href="#" class="arrow-link">
+				<a href="#modal-download" class="arrow-link fancy-modal">
 					<img src="/img/arrow-down.svg" alt="arrow">
 					<span>скачать</span>
 				</a>
@@ -60,9 +60,9 @@
 				<img src="/img/arrow-up.svg" alt="arrow">
 				<span>Купить бумажную <br>версию книги</span>
 			</a>
-			<a href="#" class="arrow-link">
+			<a href="#modal-download" class="arrow-link fancy-modal">
 				<img src="/img/arrow-down.svg" alt="arrow">
-				<span>Бесплатно <br>скачать книгу</span>
+				<span>скачать</span>
 			</a>
 		</div>
 	</div>
@@ -161,9 +161,9 @@
 					<img src="/img/arrow-up.svg" alt="arrow">
 					<span>Купить бумажную <br>версию книги</span>
 				</a>
-				<a href="#" class="arrow-link">
+				<a href="#modal-download" class="arrow-link fancy-modal">
 					<img src="/img/arrow-down.svg" alt="arrow">
-					<span>Бесплатно <br>скачать книгу</span>
+					<span>скачать</span>
 				</a>
 			</div>
 
