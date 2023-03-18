@@ -1,0 +1,5 @@
+/.idea/*
+/orders.csv
+/ajax/orders.csv
+/bitrix/*
+/upload/*

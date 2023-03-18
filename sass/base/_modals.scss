@@ -1,0 +1,31 @@
+:root{
+	--fancybox-bg: rgba(0,0,0,0.8);
+}
+
+.modal {
+	display: none;
+	width: 500px;
+	max-width: 100%;
+}
+
+.fancybox__carousel{
+	.fancybox__slide {
+		&.has-iframe .fancybox__content {
+			padding: 0;
+		}
+		&.has-video .fancybox__content {
+			width: 1920px;
+			height: 1080px;
+		}
+		&.has-inline {
+			padding: 30px;
+			@include res(xs) {
+				padding: 15px;
+			}
+		}
+	}
+
+	.carousel__button.is-close {
+		@include cross();
+	}
+}
