@@ -49,6 +49,10 @@ strong{
 	@include res(l) {
 		margin-bottom: 20px;
 	}
+
+	.btn{
+		margin-top: 30px;
+	}
 }
 
 .sec-title__decor{
@@ -84,13 +88,22 @@ strong{
 	font-weight: 500;
 	font-size: 40px;
 	line-height: 1.25;
-	text-transform: uppercase;
 	max-width: 20em;
 	margin-left: auto;
 	margin-right: auto;
 
 	@include res(l) {
 		font-size: 24px;
+	}
+}
+
+.sec-title__decor--gray{
+	background: var(--gray-border);
+
+	.sec-title__book{
+		width: 42px;
+		height: 42px;
+		border: 2px solid var(--gray-border);
 	}
 }
 // sec-title
