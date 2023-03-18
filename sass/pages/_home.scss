@@ -373,4 +373,65 @@
 		padding: 60px 0 40px 0;
 	}
 }
+
+.review{
+	background: #FFF;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.review__stars{
+	margin-bottom: 10px;
+	pointer-events: none;
+}
+
+.review__name{
+	display: inline-block;
+	font-weight: 500;
+	margin-bottom: 0.5em;
+}
+
+.reviews-list-hidden{
+	display: none;
+}
+
+.reviews-more-btn{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.review-send{
+	padding-top: 60px;
+}
+
+.review-send__title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 1.25;
+	margin-bottom: 0.5em;
+
+	@include res(m) {
+		font-size: 24px;
+	}
+}
+
+.review-send__block{
+	background: #FFF;
+	width: 700px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+
+	@include res(m) {
+		padding: 30px 20px;
+	}
+
+	.vertical-form{
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 // s-reviews

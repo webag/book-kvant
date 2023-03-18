@@ -1,3 +1,2 @@
-//@prepros-append vendors/jquery.mask.min.js
 //@prepros-append vendors/fancybox.umd.js
-//@prepros-append vendors/device.min.js
+//@prepros-append vendors/star-rating.min.js

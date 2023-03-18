@@ -180,6 +180,139 @@
 			</div>
 			<div class="sec-title__text">Отзывы читателей книги</div>
 		</div>
+		<div class="reviews-list">
+			<div class="review">
+				<div class="review__stars">
+					<select class="star-rating">
+						<option value="5" selected></option>
+						<option value="4"></option>
+						<option value="3"></option>
+						<option value="2"></option>
+						<option value="1"></option>
+					</select>
+				</div>
+				<div class="review__name">Somename@mail.ru</div>
+				<div class="review__text">
+					<p>Эта книга - настоящее открытие для меня! Автор начинает с философской основы своего подхода к жизни, основанного на наблюдениях и опыте. Я полностью разделяю ее взгляд на то, что человек рожден для творчества и создания мира, который бы ему нравился. Она убедительно объясняет, почему это так важно для нашего благополучия и здоровья. Я буду рекомендовать эту книгу всем, кто хочет научиться жить счастливо и гармонично.</p>
+				</div>
+			</div>
+			<div class="review">
+				<div class="review__stars">
+					<select class="star-rating">
+						<option value="5" selected></option>
+						<option value="4"></option>
+						<option value="3"></option>
+						<option value="2"></option>
+						<option value="1"></option>
+					</select>
+				</div>
+				<div class="review__name">Андрей Филлипов</div>
+				<div class="review__text">
+					<p>Я прочитал главу 1 этой книги и она заставила меня задуматься. Автор утверждает, что природа человека - это природа творца, и мы должны создавать мир, который нам нравится. Я согласен с этим, но что делать, если мы не можем контролировать все аспекты нашей жизни? Как нам находить гармонию и счастье, если мы не можем изменить наше окружение?</p>
+				</div>
+			</div>
+			<div class="review">
+				<div class="review__stars">
+					<select class="star-rating">
+						<option value="5"></option>
+						<option value="4" selected></option>
+						<option value="3"></option>
+						<option value="2"></option>
+						<option value="1"></option>
+					</select>
+				</div>
+				<div class="review__name">NoName</div>
+				<div class="review__text">
+					<p>Начало, глава 1, может быть интересным и убедительным, но автор перегибает палку, когда начинает говорить о том, что нельзя жить в пространстве, которое нам не нравится. Понятно, что каждый хочет жить в комфортных условиях, но это не всегда возможно. Кроме того, автор говорит о красоте и ее спасительной силе, но не учитывает, что каждый человек имеет свой субъективный вкус и предпочтения. В общем, книга интересная и вызвывает много мыслей. Оценка 4 звезды из 5.</p>
+				</div>
+			</div>
+		</div>
+		<div class="reviews-list-hidden">
+			<div class="review">
+				<div class="review__stars">
+					<select class="star-rating">
+						<option value="5" selected></option>
+						<option value="4"></option>
+						<option value="3"></option>
+						<option value="2"></option>
+						<option value="1"></option>
+					</select>
+				</div>
+				<div class="review__name">Somename@mail.ru</div>
+				<div class="review__text">
+					<p>Эта книга - настоящее открытие для меня! Автор начинает с философской основы своего подхода к жизни, основанного на наблюдениях и опыте. Я полностью разделяю ее взгляд на то, что человек рожден для творчества и создания мира, который бы ему нравился. Она убедительно объясняет, почему это так важно для нашего благополучия и здоровья. Я буду рекомендовать эту книгу всем, кто хочет научиться жить счастливо и гармонично.</p>
+				</div>
+			</div>
+			<div class="review">
+				<div class="review__stars">
+					<select class="star-rating">
+						<option value="5" selected></option>
+						<option value="4"></option>
+						<option value="3"></option>
+						<option value="2"></option>
+						<option value="1"></option>
+					</select>
+				</div>
+				<div class="review__name">Андрей Филлипов</div>
+				<div class="review__text">
+					<p>Я прочитал главу 1 этой книги и она заставила меня задуматься. Автор утверждает, что природа человека - это природа творца, и мы должны создавать мир, который нам нравится. Я согласен с этим, но что делать, если мы не можем контролировать все аспекты нашей жизни? Как нам находить гармонию и счастье, если мы не можем изменить наше окружение?</p>
+				</div>
+			</div>
+			<div class="review">
+				<div class="review__stars">
+					<select class="star-rating">
+						<option value="5"></option>
+						<option value="4" selected></option>
+						<option value="3"></option>
+						<option value="2"></option>
+						<option value="1"></option>
+					</select>
+				</div>
+				<div class="review__name">NoName</div>
+				<div class="review__text">
+					<p>Начало, глава 1, может быть интересным и убедительным, но автор перегибает палку, когда начинает говорить о том, что нельзя жить в пространстве, которое нам не нравится. Понятно, что каждый хочет жить в комфортных условиях, но это не всегда возможно. Кроме того, автор говорит о красоте и ее спасительной силе, но не учитывает, что каждый человек имеет свой субъективный вкус и предпочтения. В общем, книга интересная и вызвывает много мыслей. Оценка 4 звезды из 5.</p>
+				</div>
+			</div>
+		</div>
+		<div class="reviews-more-btn">
+			<div class="btn btn--outline">Читать ещё отзывы</div>
+		</div>
+
+		<div class="review-send">
+			<div class="review-send__title">Оставить свой отзыв</div>
+			<div class="review-send__block">
+				<form class="vertical-form">
+					<label class="form-item">
+						<div class="form-item__label">Ваше имя:</div>
+						<input type="text" name="user_name" placeholder="Введите ваше имя" class="input-text">
+					</label>
+					<label class="form-item">
+						<div class="form-item__label">Ваш email:</div>
+						<input type="email" name="user_email" placeholder="Введите ваш email" class="input-text">
+					</label>
+					<div class="form-item">
+						<div class="form-item__label">Ваша оценка:</div>
+						<div class="form-item__stars">
+							<select class="form-stars" name="user_stars">
+								<option value=""></option>
+								<option value="5"></option>
+								<option value="4"></option>
+								<option value="3"></option>
+								<option value="2"></option>
+								<option value="1"></option>
+							</select>
+						</div>
+					</div>
+					<label class="form-item">
+						<div class="form-item__label">Ваш отзыв:</div>
+						<textarea type="email" name="user_comment" placeholder="Введите ваш отзыв к книге" class="input-text" rows="5"></textarea>
+					</label>
+
+					<button type="submit" class="btn">Отправить отзыв</button>
+				</form>
+			</div>
+		</div>
+
 	</div>
 </section>
 
