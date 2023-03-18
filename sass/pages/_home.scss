@@ -180,7 +180,55 @@
 
 // s-about
 .s-about{
-	padding: 50px 0;
+	padding: 70px 0;
 	background: var(--gray-bg);
+
+	@include res(m) {
+		padding: 60px 0 40px 0;
+	}
+}
+
+.about-list{
+	list-style: none;
+	border-left: 4px solid #FFF;
+	padding: 15px 30px;
+
+	@include res(l) {
+		padding: 10px 15px;
+	}
+
+	li{
+		position: relative;
+		padding-left: 1.3em;
+		line-height: 1.25;
+		margin-bottom: 0.8em;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		&:before{
+			content: '';
+			width: 10px;
+			height: 10px;
+			background: currentColor;
+			border-radius: 50%;
+			position: absolute;
+			left: 0;
+			top: 0.3em;
+
+			@include res(m) {
+				width: 6px;
+				height: 6px;
+			}
+		}
+	}
+}
+
+.about-links{
+	padding-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 50px;
 }
 // s-about

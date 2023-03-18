@@ -4,6 +4,10 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #353434;
+
+	@include res(m) {
+		font-size: 14px;
+	}
 }
 
 a {
@@ -35,3 +39,58 @@ strong{
 		height: auto;
 	}
 }
+
+
+// sec-title
+.sec-title{
+	margin-bottom: 30px;
+	text-align: center;
+
+	@include res(l) {
+		margin-bottom: 20px;
+	}
+}
+
+.sec-title__decor{
+	position: relative;
+	height: 2px;
+	width: 610px;
+	max-width: 100%;
+	background: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.sec-title__book{
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: calc(50% - 19px);
+	top: -18px;
+	background: #FFF;
+	border-radius: 50%;
+
+	img{
+		width: 22px;
+		height: auto;
+	}
+}
+
+.sec-title__text{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1.25;
+	text-transform: uppercase;
+	max-width: 20em;
+	margin-left: auto;
+	margin-right: auto;
+
+	@include res(l) {
+		font-size: 24px;
+	}
+}
+// sec-title
