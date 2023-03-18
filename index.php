@@ -319,7 +319,25 @@
 
 <section class="s-author">
 	<div class="container">
-		
+		<div class="author">
+			<div class="author__left">
+				<div class="author__subtitle author__subtitle--mob">Автор книги</div>
+				<div class="author__title author__title--mob">Юлия Якимова</div>
+				<img src="/img/author.jpg" srcset="/img/author.jpg@2x.jpg 2x" alt="img">
+			</div>
+			<div class="author__right">
+				<div class="author__subtitle">Автор книги</div>
+				<div class="author__title">Юлия Якимова</div>
+				<div class="author__descr">
+					<p>В квантовой физике есть понятие «суперпозиция». Смысл этого понятия - поставить себя в центр своей вселенной. Сделать себя создателем игр своей жизни.</p>
+					<p>Этому я учусь на протяжении 25 лет. Каждая страница этой книги пережита мной и теми, кто в разные моменты жизни оказывался рядом и выбирал меня своим проводником.</p>
+					<p>Это мой подарок тем, кто не сдается системе, ищет себя и свой путь.</p>
+					<p>Даже знание, что ты не один, иногда дает невероятный импульс и становится квантовым смещением.</p>
+					<p>Знай, что ты не один.</p>
+					<p>Мы вместе.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
