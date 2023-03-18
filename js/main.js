@@ -54,6 +54,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		const elementClick = $(this).attr("href");
 		const destination = $(elementClick).offset().top;
 		$('html,body').stop().animate({ scrollTop: destination }, 1000);
+		$('.burger').removeClass('active');
+		$('.mob-panel').removeClass('active');
+		$('body').removeClass('stopped');
 		return false;
 	});
 });

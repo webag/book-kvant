@@ -146,11 +146,7 @@
 	transform: translate3d(320px, 0, 0);
 	will-change: transform;
 	background: var(--gray-bg);
-	padding: 30px 30px 30px 30px;
-
-	@include res(s) {
-		padding-top: 25px;
-	}
+	padding: 20px 30px 30px 30px;
 
 	@include res(l) {
 		display: flex;
@@ -162,6 +158,17 @@
 		visibility: visible;
 		transform: translate3d(0, 0, 0);
 		opacity: 1;
+	}
+
+	.socials{
+		margin-bottom: 20px;
+	}
+
+	.email-link{
+
+		&:hover,&:active{
+			color: #000;
+		}
 	}
 }
 
@@ -183,7 +190,7 @@
 	align-items: flex-start;
 	gap: 1em;
 	text-transform: uppercase;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	font-weight: 500;
 	font-size: 16px;
 

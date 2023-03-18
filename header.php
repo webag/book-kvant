@@ -61,7 +61,18 @@
 			<a href="#reviews" class="scrollto">отзывы</a>
 			<a href="#" target="_blank">скачать</a>
 		</nav>
-		<div class="mob-panel__conts">
-
+		<div class="socials">
+			<a href="#" target="_blank" class="social">
+				<img src="/img/tg.svg" alt="tg">
+			</a>
+			<a href="#" target="_blank" class="social">
+				<img src="/img/insta.svg" alt="insta">
+			</a>
 		</div>
+		<a href="mailto:info@superego.company" class="email-link">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="14px">
+				<path fill-rule="evenodd" fill="#898989" d="M18.242,0.0 L1.757,0.0 C0.788,0.0 0.0,0.805 0.0,1.795 L0.0,12.204 C0.0,13.194 0.788,13.999 1.757,13.999 L18.242,13.999 C19.211,13.999 19.999,13.194 19.999,12.204 L19.999,1.795 C19.999,0.805 19.211,0.0 18.242,0.0 ZM18.12,1.197 L17.778,1.397 L10.697,7.421 C10.293,7.764 9.706,7.764 9.302,7.421 L2.221,1.397 L1.987,1.197 L18.12,1.197 ZM1.171,2.61 L6.941,6.970 L1.171,10.892 L1.171,2.61 ZM18.242,12.803 L1.757,12.803 C1.474,12.803 1.237,12.596 1.183,12.323 L7.880,7.769 L8.552,8.341 C8.971,8.697 9.486,8.876 10.0,8.876 C10.514,8.876 11.28,8.697 11.447,8.341 L12.119,7.769 L18.816,12.323 C18.762,12.596 18.525,12.803 18.242,12.803 ZM18.828,10.892 L13.58,6.970 L18.828,2.61 L18.828,10.892 Z" />
+			</svg>
+			info@superego.company
+		</a>
 	</div>

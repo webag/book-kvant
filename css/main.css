@@ -1271,7 +1271,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #353434;
+  color: #000;
 }
 @media (max-width: 768px) {
   body {
@@ -1502,6 +1502,20 @@ label {
   padding-left: 1em;
 }
 
+.form-note {
+  font-size: 14px;
+  padding-top: 15px;
+  color: #a8a8a8;
+}
+.form-note a {
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  text-align: left;
+}
+.form-note a:hover {
+  color: #000;
+}
+
 .vertical-form .form-item {
   width: 100%;
   margin-bottom: 20px;
@@ -1532,6 +1546,7 @@ label {
   background-color: #000;
   border: 2px solid #000;
   color: #FFF;
+  -webkit-tap-highlight-color: transparent;
 }
 .btn:focus {
   outline: none;
@@ -1797,12 +1812,7 @@ button::-moz-focus-inner {
           transform: translate3d(320px, 0, 0);
   will-change: transform;
   background: var(--gray-bg);
-  padding: 30px 30px 30px 30px;
-}
-@media (max-width: 680px) {
-  .mob-panel {
-    padding-top: 25px;
-  }
+  padding: 20px 30px 30px 30px;
 }
 @media (max-width: 1024px) {
   .mob-panel {
@@ -1822,6 +1832,12 @@ button::-moz-focus-inner {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   opacity: 1;
+}
+.mob-panel .socials {
+  margin-bottom: 20px;
+}
+.mob-panel .email-link:hover, .mob-panel .email-link:active {
+  color: #000;
 }
 
 .mob-panel__logo {
@@ -1847,7 +1863,7 @@ button::-moz-focus-inner {
           align-items: flex-start;
   gap: 1em;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-weight: 500;
   font-size: 16px;
 }
@@ -2392,6 +2408,9 @@ button::-moz-focus-inner {
     display: none;
   }
 }
+.author__subtitle--mob {
+  display: none;
+}
 @media (max-width: 768px) {
   .author__subtitle--mob {
     display: block;
@@ -2410,6 +2429,9 @@ button::-moz-focus-inner {
     display: none;
   }
 }
+.author__title--mob {
+  display: none;
+}
 @media (max-width: 768px) {
   .author__title--mob {
     display: block;
@@ -2424,4 +2446,129 @@ button::-moz-focus-inner {
 }
 .author__descr p:last-child {
   margin-bottom: 0;
+}
+
+.s-footer {
+  padding: 30px 0;
+  background: #000;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px 20px;
+}
+@media (max-width: 768px) {
+  .footer {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer__left {
+  color: #898989;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .footer__left {
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.email-link {
+  margin-top: 5px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+.email-link:hover {
+  color: #FFF;
+}
+
+@media (max-width: 768px) {
+  .footer__center {
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+.footer__center img {
+  display: block;
+  width: 227px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .footer__center img {
+    width: 120px;
+  }
+}
+
+.footer__right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .footer__right {
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.socials {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.social {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.social:hover, .social:active {
+  -webkit-tap-highlight-color: transparent;
+  background: rgba(255, 255, 255, 0.7);
+}
+.social img, .social svg {
+  width: 100%;
+  height: auto;
 }
