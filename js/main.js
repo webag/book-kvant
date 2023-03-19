@@ -76,6 +76,23 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Mob menu End */
 
 
+/* Fragment show Begin */
+document.addEventListener("DOMContentLoaded", function() {
+	const moreBtn = document.querySelector('.js-fragment-show');
+	const hiddenFragemnt = $('.fragment--hidden');
+
+	moreBtn.addEventListener('click', (e) => {
+		hiddenFragemnt.slideToggle();
+		if (e.target.innerHTML === "Читать больше") {
+			e.target.innerHTML = "Свернуть";
+		} else {
+			e.target.innerHTML = "Читать больше";
+		}
+	})
+})
+/* Fragment show End */
+
+
 /* Reviews Begin */
 document.addEventListener("DOMContentLoaded", function () {
 	const moreBtn = document.querySelector('.reviews-more-btn .btn');

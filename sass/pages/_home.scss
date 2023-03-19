@@ -274,6 +274,15 @@
 	p {
 		margin-bottom: 0.7em;
 	}
+
+	&--hidden{
+		display: none;
+	}
+}
+
+.fragment-more-btn{
+	padding-top: 20px;
+	text-align: center;
 }
 
 .fragment__title {

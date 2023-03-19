@@ -32,7 +32,6 @@
 .header__nav {
 	display: flex;
 	align-items: baseline;
-	gap: 1.8em;
 	font-size: 22px;
 	white-space: nowrap;
 
@@ -42,6 +41,7 @@
 
 	a {
 		transition: color 0.3s ease;
+		margin-left: 35px;
 
 		&:hover {
 			color: #cccbcc;

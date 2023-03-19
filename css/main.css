@@ -1735,7 +1735,6 @@ button::-moz-focus-inner {
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  gap: 1.8em;
   font-size: 22px;
   white-space: nowrap;
 }
@@ -1746,6 +1745,7 @@ button::-moz-focus-inner {
 }
 .header__nav a {
   transition: color 0.3s ease;
+  margin-left: 35px;
 }
 .header__nav a:hover {
   color: #cccbcc;
@@ -2216,6 +2216,14 @@ button::-moz-focus-inner {
 }
 .fragment p {
   margin-bottom: 0.7em;
+}
+.fragment--hidden {
+  display: none;
+}
+
+.fragment-more-btn {
+  padding-top: 20px;
+  text-align: center;
 }
 
 .fragment__title {
