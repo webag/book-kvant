@@ -1533,10 +1533,37 @@ label {
     margin-bottom: 15px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .vertical-form .btn {
     margin-top: 10px;
   }
+}
+.vertical-form .form-errors {
+  margin-bottom: 20px;
+}
+@media (max-width: 1024px) {
+  .vertical-form .form-errors {
+    margin-bottom: 5px;
+  }
+}
+
+.form-errors {
+  background: #fbbdbd;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+@media (max-width: 1024px) {
+  .form-errors {
+    font-size: 14px;
+  }
+}
+.form-errors p {
+  margin-bottom: 0.3em;
+}
+.form-errors p:last-child {
+  margin-bottom: 0;
 }
 
 .btn {

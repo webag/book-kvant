@@ -30,7 +30,7 @@
 
 <body>
 
-	<header class="s-header">
+	<header class="s-header compensate-for-scrollbar">
 		<div class="container-wide">
 			<div class="header">
 				<img src="img/logo-black.svg" alt="logo" class="header__logo">
@@ -465,7 +465,10 @@
 							<textarea type="email" name="user_comment" placeholder="Введите ваш отзыв к книге"
 								class="input-text" rows="5"></textarea>
 						</label>
-
+						<div class="form-errors">
+							<p>Имя не заполнено</p>
+							<p>E-mail неверного формата</p>
+						</div>
 						<button type="submit" class="btn">Отправить отзыв</button>
 						<div class="form-note">Нажимая кнопку, вы соглашаетесь с&nbsp;<a href="policy.pdf">политикой конфиденциальности.</a></div>
 					</form>
@@ -552,6 +555,10 @@
 					<div class="form-item__label">Ваш телефон:</div>
 					<input type="text" name="user_email" placeholder="Введите ваш телефон" class="input-text">
 				</label>
+				<div class="form-errors">
+					<p>Имя не заполнено</p>
+					<p>E-mail неверного формата</p>
+				</div>
 				<button type="submit" class="btn">Скачать книгу</button>
 				<div class="form-note">Нажимая кнопку, вы соглашаетесь с&nbsp;<a href="policy.pdf">политикой конфиденциальности.</a></div>
 			</form>
@@ -559,6 +566,11 @@
 
 		<div id="modal-thanks" class="modal">
 			<div class="modal__title">Спасибо за заявку!</div>
+		</div>
+
+		<div id="modal-error" class="modal">
+			<div class="modal__title">Ошибка</div>
+			<p>Вероятно, произошел сбой. Попробуйте отправить форму заново.</p>
 		</div>
 
 	</div>

@@ -96,8 +96,37 @@ label {
 	}
 
 	.btn{
-		@include res(m) {
+		@include res(l) {
 			margin-top: 10px;
+		}
+	}
+
+	.form-errors{
+		margin-bottom: 20px;
+
+		@include res(l) {
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+.form-errors{
+	background: #fbbdbd;
+	padding: 10px 15px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+
+	@include res(l) {
+		font-size: 14px;
+	}
+
+	p{
+		margin-bottom: 0.3em;
+
+		&:last-child{
+			margin-bottom: 0;
 		}
 	}
 }

@@ -1,5 +1,6 @@
 /* Заметки Begin */
 // Fancybox.show([{src: '#modal-thanks'}]); - открыть модальное окно с id = #modal-thanks
+// Fancybox.show([{src: '#modal-error'}]); - открыть модальное окно с id = #modal-error
 // Fancybox.close(); - закрыть текущее модальное окно
 /* Заметки End */
 
